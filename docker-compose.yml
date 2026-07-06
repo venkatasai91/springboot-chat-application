@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: chat
+
+    ports:
+      - "8080:8080"
